@@ -1,7 +1,5 @@
 package com.demo.model;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
@@ -37,18 +35,47 @@ public class LightBeanStore {
     }
 
     /**
-     * 数据库的操作 TODO
-     * @param lightBean
+     * 数据库的操作 TODO 计划使用 changeTimes/(lightBeans.size()) 来作为因子决定是否把当前数据同步到数据库
+     * @param obj
      */
-    private static void doMySQLThings(LightBean lightBean) {
+    private static void doMySQLThings(Object obj) {
     }
 
+    /**
+     * 从集合中去除某一元素
+     * @param lightBean 去除与 lightBean 相同的元素
+     * @return 删除成功则返回被删除的数据，否则返回NULL
+     */
     public static LightBean removeLightBean(LightBean lightBean){
         try {
             lightBeans.remove(lightBean);
             changeTimes ++;
             doMySQLThings(lightBean);   //进行数据库持久化，注意还没写 TODO
             return lightBean;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;    //删除失败则返回null
+        }
+    }
+
+    /**
+     * 上个方法的重载方法
+     * @param lightPhoneId  手机的唯一标识
+     * @return 删除成功则返回被删除的数据，否则返回NULL
+     */
+    public static LightBean removeLightBean(String lightPhoneId){
+        try {
+            for (LightBean lightBean:
+                 lightBeans) {
+                if (lightPhoneId == lightBean.getLightPhoneId()){
+                    lightBeans.remove(lightBean);
+                    changeTimes ++;
+                    doMySQLThings(lightBeans);   //进行数据库持久化，注意还没写 TODO
+                    return lightBean;
+                }
+
+            }
+            return null;
         } catch (Exception e) {
             e.printStackTrace();
             return null;    //删除失败则返回null
@@ -72,6 +99,23 @@ public class LightBeanStore {
         try {
             for (LightBean lightBean : lightBeans) {
                 lightBean.setState(flag);
+            }
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    public static Boolean changeLightLuminance(String lightPhoneId, int luminance){
+        try {
+            if (null == LightBeanStore.findLightBean(lightPhoneId)){
+                //只有不含这个灯时才需要添加
+                LightBean lightBean1 = new LightBean(lightPhoneId,false,luminance);
+                LightBeanStore.saveLightBean(lightBean1);
+            } else {
+                LightBean lightBean = LightBeanStore.findLightBean(lightPhoneId);
+                lightBean.setLuminance(luminance);
             }
             return true;
         } catch (Exception e) {

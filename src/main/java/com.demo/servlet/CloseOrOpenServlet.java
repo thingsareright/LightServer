@@ -1,6 +1,5 @@
 package com.demo.servlet;
 
-import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.demo.model.LightBean;
 import com.demo.model.LightBeanStore;
@@ -26,11 +25,16 @@ public class CloseOrOpenServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doGet(request, response);
         String lightPhoneId = (String) request.getAttribute("lightPhoneId");
-        LightBean lightBean = LightBeanStore.findLightBean(lightPhoneId);
         // 设置编码格式
         response.setContentType("text/plain;charset=" + ENCODING);
         response.setCharacterEncoding(ENCODING);
-
+        //如果没有这个lightBean，那么会添加
+        if (null == LightBeanStore.findLightBean(lightPhoneId)){
+            //只有不含这个灯时才需要添加
+            LightBean lightBean1 = new LightBean(lightPhoneId,false,3);
+            LightBeanStore.saveLightBean(lightBean1);
+        }
+        LightBean lightBean = LightBeanStore.findLightBean(lightPhoneId);
         PrintWriter out = null;
         try {
             out = response.getWriter();
