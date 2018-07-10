@@ -65,4 +65,8 @@
         <servlet-name>ChangeSingleLightBeanServlet</servlet-name>
         <url-pattern>/ChangeSingleLightBeanServlet</url-pattern>
     </servlet-mapping>
+
+    <listener>
+        <listener-class>com.demo.util.RemoveOverdueUtil</listener-class>
+    </listener>
 </web-app>
