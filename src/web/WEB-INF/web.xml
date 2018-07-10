@@ -31,11 +31,29 @@
     </filter-mapping>
 
     <servlet>
-        <servlet-name>CloseOrOpenServlet</servlet-name>
-        <servlet-class>com.demo.servlet.CloseOrOpenServlet</servlet-class>
+        <servlet-name>AllControlServlet</servlet-name>
+        <servlet-class>com.demo.servlet.AllControlServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>CloseOrOpenServlet</servlet-name>
-        <url-pattern>/CloseOrOpenServlet</url-pattern>
+        <servlet-name>AllControlServlet</servlet-name>
+        <url-pattern>/AllControlServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SingleLightBeanServlet</servlet-name>
+        <servlet-class>com.demo.servlet.SingleLightBeanServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SingleLightBeanServlet</servlet-name>
+        <url-pattern>/SingleLightBeanServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AllPhoneInfoServlet</servlet-name>
+        <servlet-class>com.demo.servlet.AllPhoneInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AllPhoneInfoServlet</servlet-name>
+        <url-pattern>/AllPhoneInfoServlet</url-pattern>
     </servlet-mapping>
 </web-app>

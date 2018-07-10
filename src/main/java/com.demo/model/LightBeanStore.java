@@ -85,7 +85,7 @@ public class LightBeanStore {
     public static LightBean findLightBean(String lightPhoneId){
         try {
             for (LightBean lightBean: lightBeans) {
-                if (lightPhoneId == lightBean.getLightPhoneId())
+                if (lightPhoneId.equals(lightBean.getLightPhoneId()))
                     return lightBean;
             }
             return null;
@@ -95,7 +95,20 @@ public class LightBeanStore {
         }
     }
 
-    public static Boolean changeAllLightOnOrOff(Boolean flag) {
+    public static Boolean changeAllLightOnOrOffAndLuminance(Boolean flag, int luminance) {
+        try {
+            for (LightBean lightBean : lightBeans) {
+                lightBean.setState(flag);
+                lightBean.setLuminance(luminance);
+            }
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    public static Boolean changeAllLightOnOrOffAndLuminance(Boolean flag) {
         try {
             for (LightBean lightBean : lightBeans) {
                 lightBean.setState(flag);
@@ -111,7 +124,7 @@ public class LightBeanStore {
         try {
             if (null == LightBeanStore.findLightBean(lightPhoneId)){
                 //只有不含这个灯时才需要添加
-                LightBean lightBean1 = new LightBean(lightPhoneId,false,luminance);
+                LightBean lightBean1 = new LightBean(lightPhoneId,false,luminance,System.currentTimeMillis());
                 LightBeanStore.saveLightBean(lightBean1);
             } else {
                 LightBean lightBean = LightBeanStore.findLightBean(lightPhoneId);
@@ -122,5 +135,9 @@ public class LightBeanStore {
             e.printStackTrace();
             return false;
         }
+    }
+
+    public static CopyOnWriteArrayList<LightBean> getLightBeans() {
+        return lightBeans;
     }
 }

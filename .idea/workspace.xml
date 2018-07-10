@@ -7,39 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ba6d4a8-f080-4399-b2a9-53ec0f4b2050" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/myLightServer.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/META-INF/MANIFEST.MF" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/classes/com/demo/filter/CharacterFilter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/classes/com/demo/model/LightBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/classes/com/demo/model/LightBeanStore.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/classes/com/demo/servlet/CloseOrOpenServlet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/classes/com/demo/util/JSONUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/lib/commons-fileupload-1.3.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/lib/commons-io-2.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/lib/commons-lang-2.6.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/lib/fastjson-1.2.15.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/lib/jetty-util-9.3.7.v20160115.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/lib/log4j-1.2.17.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.6.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/lib/servlet-api-2.5.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/lib/slf4j-api-1.7.25.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/image/off.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/image/on.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/js/jquery-3.2.1.min.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/myLightServer_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/myLightServer_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_14_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_14_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_14_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_14_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_14_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_14_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/classes/com/demo/servlet/AllControlServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/classes/com/demo/servlet/SingleLightBeanServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/demo/servlet/AllPhoneInfoServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/demo/servlet/SingleLightBeanServlet.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/myLightServer.iml" afterPath="$PROJECT_DIR$/.idea/myLightServer.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/classes/com/demo/model/LightBean.class" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/classes/com/demo/model/LightBean.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/classes/com/demo/model/LightBeanStore.class" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/classes/com/demo/model/LightBeanStore.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/classes/com/demo/servlet/CloseOrOpenServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/classes/com/demo/util/JSONUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/classes/com/demo/util/JSONUtil.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/myLightServer_war_exploded/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.demo/model/LightBean.java" afterPath="$PROJECT_DIR$/src/main/java/com.demo/model/LightBean.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com.demo/model/LightBeanStore.java" afterPath="$PROJECT_DIR$/src/main/java/com.demo/model/LightBeanStore.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.demo/servlet/CloseOrOpenServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com.demo/servlet/CloseOrOpenServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.demo/util/JSONUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com.demo/util/JSONUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.demo/servlet/CloseOrOpenServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com.demo/servlet/AllControlServlet.java" />
+      <change beforePath="$PROJECT_DIR$/src/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/web/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,12 +47,12 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CloseOrOpenServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/servlet/CloseOrOpenServlet.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AllControlServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/servlet/AllControlServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="107">
+              <caret line="50" column="73" lean-forward="false" selection-start-line="50" selection-start-column="64" selection-end-line="50" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,21 +60,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSONUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/util/JSONUtil.java">
+      <file leaf-file-name="LightBeanStore.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/model/LightBeanStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="92">
+              <caret line="87" column="67" lean-forward="false" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="67" />
+              <folding>
+                <element signature="e#344#355#0" expanded="true" />
+                <element signature="e#4357#4358#0" expanded="true" />
+                <element signature="e#4390#4391#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LightBeanStore.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/model/LightBeanStore.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="70" column="49" lean-forward="true" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+            <state relative-caret-position="-421">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,52 +87,86 @@
       <file leaf-file-name="LightBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/model/LightBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="184">
+              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding>
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1174#1175#0" expanded="true" />
+                <element signature="e#1232#1233#0" expanded="true" />
+                <element signature="e#1284#1285#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="56" column="41" lean-forward="false" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CharacterFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/filter/CharacterFilter.java">
+      <file leaf-file-name="SingleLightBeanServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/servlet/SingleLightBeanServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state relative-caret-position="23">
+              <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MODULES/mdl-myLightServer" pinned="false" current-in-tab="false">
-        <entry file="uml://MODULES/mdl-myLightServer">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>MODULES</ID>
-              <OriginalElement>mdl-myLightServer</OriginalElement>
-              <nodes>
-                <node x="0.0" y="0.0">mdl-myLightServer</node>
-              </nodes>
-              <notes />
-              <edges />
-              <settings layout="Hierarchic Group" zoom="1.0" x="-157.0" y="98.0" />
-              <SelectedNodes />
-              <Categories />
+      <file leaf-file-name="AllPhoneInfoServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/servlet/AllPhoneInfoServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="HttpServletRequest.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/javax/servlet/http/HttpServletRequest.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-276">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="69">
+              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Accessible.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/com/sun/glass/ui/Accessible.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="137" column="18" lean-forward="false" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServletRequest.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/javax/servlet/ServletRequest.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -147,8 +179,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com.demo/util/JSONUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.demo/servlet/CloseOrOpenServlet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com.demo/servlet/TestCloseOrOpenServlet.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com.demo/util/JSONUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.demo/model/LightBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/servlet/SingleLightBeanServlet.java" />
+        <option value="$PROJECT_DIR$/src/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/servlet/AllPhoneInfoServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.demo/model/LightBeanStore.java" />
       </list>
     </option>
@@ -165,6 +203,13 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -187,11 +232,13 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="174" />
-    <option name="y" value="72" />
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="37" />
     <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="height" value="608" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -209,8 +256,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,6 +297,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com.demo" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myLightServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLightServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.demo" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -275,22 +330,58 @@
               <item name="myLightServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="myLightServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myLightServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLightServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myLightServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLightServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myLightServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLightServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myLightServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLightServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="SearchEverywhereHistoryKey" value="getAttri&#9;PSI&#9;JAVA://com.sun.glass.ui.Accessible.GetAttribute" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.demo.servlet" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -304,7 +395,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -452,12 +543,60 @@
         </option>
       </method>
     </configuration>
+    <configuration name="index.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.html" />
+      <deployment>
+        <artifact name="myLightServer:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_html_myLightServer" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="myLightServer:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -472,45 +611,64 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531149550307</updated>
-      <workItem from="1531149552517" duration="3018000" />
+      <workItem from="1531149552517" duration="3119000" />
+      <workItem from="1531183613846" duration="8965000" />
     </task>
+    <task id="LOCAL-00001" summary="后台基本开发完毕，准备前端网页的开发和安卓的开发，这个需分工！">
+      <created>1531152847631</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531152847631</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3018000" />
+    <option name="totallyTimeSpent" value="12084000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="0" y="37" width="1346" height="608" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.281106" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24281392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45052633" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3431579" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842106" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2527216" sideWeight="0.83653843" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2527216" sideWeight="0.16346154" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -520,16 +678,72 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="后台基本开发完毕，准备前端网页的开发和安卓的开发，这个需分工！" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台基本开发完毕，准备前端网页的开发和安卓的开发，这个需分工！" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/demo/servlet/SingleLightBeanServlet.java</url>
+          <line>42</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/demo/servlet/SingleLightBeanServlet.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/demo/servlet/SingleLightBeanServlet.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/demo/servlet/SingleLightBeanServlet.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/servlet/AllControlServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="575">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/util/JSONUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/model/LightBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -537,7 +751,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -551,43 +767,408 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-157.0" y="98.0" />
-          <SelectedNodes />
+          <settings layout="Hierarchic Group" zoom="1.0" x="85.5" y="15.5" />
+          <SelectedNodes>
+            <node>mdl-myLightServer</node>
+          </SelectedNodes>
           <Categories />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/util/JSONUtil.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/model/LightBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/model/LightBeanStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="1725">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="e#344#355#0" expanded="true" />
+            <element signature="e#4357#4358#0" expanded="true" />
+            <element signature="e#4390#4391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-myLightServer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-myLightServer</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">mdl-myLightServer</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="85.5" y="15.5" />
+          <SelectedNodes>
+            <node>mdl-myLightServer</node>
+          </SelectedNodes>
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/servlet/CloseOrOpenServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/filter/CharacterFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="345">
+          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="uml://MAVEN/myLightServer:LightServer:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>myLightServer:LightServer:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="583.375" y="526.0">myLightServer:LightServer:1.0-SNAPSHOT</node>
+            <node x="1209.375" y="415.0">mysql:mysql-connector-java:jar:5.1.6</node>
+            <node x="920.375" y="415.0">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="1035.375" y="415.0">commons-fileupload:commons-fileupload:jar:1.3.2</node>
+            <node x="1058.875" y="334.0">commons-fileupload:commons-fileupload:jar:1.3.2/commons-io:commons-io:jar:2.2</node>
+            <node x="795.375" y="415.0">org.slf4j:slf4j-log4j12:jar:1.7.25</node>
+            <node x="759.5302631578949" y="334.0">org.slf4j:slf4j-log4j12:jar:1.7.25/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="859.5302631578949" y="334.0">org.slf4j:slf4j-log4j12:jar:1.7.25/log4j:log4j:jar:1.2.17</node>
+            <node x="696.375" y="415.0">com.alibaba:fastjson:jar:1.2.15</node>
+            <node x="448.375" y="415.0">commons-lang:commons-lang:jar:2.6</node>
+            <node x="348.375" y="415.0">org.eclipse.jetty:jetty-util:jar:9.3.7.v20160115</node>
+            <node x="270.375" y="415.0">junit:junit:jar:4.5</node>
+            <node x="589.375" y="415.0">org.apache.httpcomponents:httpclient:jar:4.5.5</node>
+            <node x="447.2414473684212" y="334.0">org.apache.httpcomponents:httpclient:jar:4.5.5/org.apache.httpcomponents:httpcore:jar:4.4.9</node>
+            <node x="401.40526315789486" y="0.0">org.apache.httpcomponents:httpclient:jar:4.5.5/commons-logging:commons-logging:jar:1.2</node>
+            <node x="567.375" y="334.0">org.apache.httpcomponents:httpclient:jar:4.5.5/commons-codec:commons-codec:jar:1.10</node>
+            <node x="58.375" y="415.0">com.squareup.okhttp:okhttp:jar:3.3.0</node>
+            <node x="150.375" y="415.0">org.springframework:spring-web:jar:4.3.14.RELEASE</node>
+            <node x="306.7888157894737" y="253.0">org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-aop:jar:4.3.14.RELEASE</node>
+            <node x="170.5" y="172.0">org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-beans:jar:4.3.14.RELEASE</node>
+            <node x="106.625" y="334.0">org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-context:jar:4.3.14.RELEASE</node>
+            <node x="10.5" y="172.0">org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-context:jar:4.3.14.RELEASE/org.springframework:spring-expression:jar:4.3.14.RELEASE</node>
+            <node x="133.53026315789486" y="81.0">org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-core:jar:4.3.14.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="commons-fileupload:commons-fileupload:jar:1.3.2" target="commons-fileupload:commons-fileupload:jar:1.3.2/commons-io:commons-io:jar:2.2">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.apache.httpcomponents:httpclient:jar:4.5.5" target="org.apache.httpcomponents:httpclient:jar:4.5.5/commons-codec:commons-codec:jar:1.10">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.apache.httpcomponents:httpclient:jar:4.5.5" target="org.apache.httpcomponents:httpclient:jar:4.5.5/org.apache.httpcomponents:httpcore:jar:4.4.9">
+              <point x="-29.0" y="-15.5" />
+              <point x="603.875" y="395.0" />
+              <point x="488.7414473684212" y="395.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.14.RELEASE" target="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-aop:jar:4.3.14.RELEASE">
+              <point x="37.5" y="-15.5" />
+              <point x="237.875" y="395.0" />
+              <point x="381.0388157894737" y="395.0" />
+              <point x="24.75" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-context:jar:4.3.14.RELEASE" target="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-context:jar:4.3.14.RELEASE/org.springframework:spring-expression:jar:4.3.14.RELEASE">
+              <point x="-44.25" y="-15.5" />
+              <point x="121.375" y="309.0" />
+              <point x="80.0" y="309.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="myLightServer:LightServer:1.0-SNAPSHOT" target="commons-fileupload:commons-fileupload:jar:1.3.2">
+              <point x="36.0" y="-15.5" />
+              <point x="668.875" y="496.0" />
+              <point x="1112.375" y="496.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-context:jar:4.3.14.RELEASE/org.springframework:spring-expression:jar:4.3.14.RELEASE" target="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-core:jar:4.3.14.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="80.0" y="142.0" />
+              <point x="164.13026315789477" y="142.0" />
+              <point x="-20.40000000000009" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-context:jar:4.3.14.RELEASE" target="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-beans:jar:4.3.14.RELEASE">
+              <point x="14.75" y="-15.5" />
+              <point x="180.125" y="228.0" />
+              <point x="189.0" y="228.0" />
+              <point x="-37.0" y="15.5" />
+            </edge>
+            <edge source="myLightServer:LightServer:1.0-SNAPSHOT" target="junit:junit:jar:4.5">
+              <point x="-27.0" y="-15.5" />
+              <point x="605.875" y="486.0" />
+              <point x="299.375" y="486.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.14.RELEASE" target="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-context:jar:4.3.14.RELEASE">
+              <point x="-12.5" y="-15.5" />
+              <point x="187.875" y="385.0" />
+              <point x="165.625" y="385.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="myLightServer:LightServer:1.0-SNAPSHOT" target="commons-lang:commons-lang:jar:2.6">
+              <point x="-9.0" y="-15.5" />
+              <point x="623.875" y="466.0" />
+              <point x="508.875" y="466.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-beans:jar:4.3.14.RELEASE" target="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-core:jar:4.3.14.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="226.0" y="152.0" />
+              <point x="204.93026315789496" y="152.0" />
+              <point x="20.40000000000009" y="15.5" />
+            </edge>
+            <edge source="myLightServer:LightServer:1.0-SNAPSHOT" target="javax.servlet:servlet-api:jar:2.5">
+              <point x="27.0" y="-15.5" />
+              <point x="659.875" y="486.0" />
+              <point x="967.875" y="486.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="myLightServer:LightServer:1.0-SNAPSHOT" target="com.alibaba:fastjson:jar:1.2.15">
+              <point x="9.0" y="-15.5" />
+              <point x="641.875" y="466.0" />
+              <point x="735.875" y="466.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-context:jar:4.3.14.RELEASE" target="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-aop:jar:4.3.14.RELEASE">
+              <point x="44.25" y="-15.5" />
+              <point x="209.875" y="309.0" />
+              <point x="331.5388157894737" y="309.0" />
+              <point x="-24.75" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.14.RELEASE" target="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-beans:jar:4.3.14.RELEASE">
+              <point x="12.5" y="-15.5" />
+              <point x="212.875" y="385.0" />
+              <point x="235.125" y="385.0" />
+              <point x="235.125" y="228.0" />
+              <point x="226.0" y="228.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.apache.httpcomponents:httpclient:jar:4.5.5" target="org.apache.httpcomponents:httpclient:jar:4.5.5/commons-logging:commons-logging:jar:1.2">
+              <point x="29.0" y="-15.5" />
+              <point x="661.875" y="395.0" />
+              <point x="720.5" y="395.0" />
+              <point x="720.5" y="56.0" />
+              <point x="507.15526315789486" y="56.0" />
+              <point x="35.25" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-aop:jar:4.3.14.RELEASE" target="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-beans:jar:4.3.14.RELEASE">
+              <point x="-24.75" y="-15.5" />
+              <point x="331.5388157894737" y="228.0" />
+              <point x="263.0" y="228.0" />
+              <point x="37.0" y="15.5" />
+            </edge>
+            <edge source="myLightServer:LightServer:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:4.3.14.RELEASE">
+              <point x="-36.0" y="-15.5" />
+              <point x="596.875" y="496.0" />
+              <point x="200.375" y="496.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.slf4j:slf4j-log4j12:jar:1.7.25" target="org.slf4j:slf4j-log4j12:jar:1.7.25/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-26.25" y="-15.5" />
+              <point x="821.625" y="395.0" />
+              <point x="799.5302631578949" y="395.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="myLightServer:LightServer:1.0-SNAPSHOT" target="com.squareup.okhttp:okhttp:jar:3.3.0">
+              <point x="-45.0" y="-15.5" />
+              <point x="587.875" y="506.0" />
+              <point x="94.375" y="506.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-core:jar:4.3.14.RELEASE" target="org.apache.httpcomponents:httpclient:jar:4.5.5/commons-logging:commons-logging:jar:1.2">
+              <point x="0.0" y="-15.5" />
+              <point x="184.53026315789486" y="56.0" />
+              <point x="436.65526315789486" y="56.0" />
+              <point x="-35.25" y="15.5" />
+            </edge>
+            <edge source="myLightServer:LightServer:1.0-SNAPSHOT" target="org.eclipse.jetty:jetty-util:jar:9.3.7.v20160115">
+              <point x="-18.0" y="-15.5" />
+              <point x="614.875" y="476.0" />
+              <point x="388.375" y="476.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="myLightServer:LightServer:1.0-SNAPSHOT" target="org.slf4j:slf4j-log4j12:jar:1.7.25">
+              <point x="18.0" y="-15.5" />
+              <point x="650.875" y="476.0" />
+              <point x="847.875" y="476.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-context:jar:4.3.14.RELEASE" target="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-core:jar:4.3.14.RELEASE">
+              <point x="-14.75" y="-15.5" />
+              <point x="150.875" y="309.0" />
+              <point x="160.0" y="309.0" />
+              <point x="160.0" y="152.0" />
+              <point x="184.53026315789486" y="152.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="myLightServer:LightServer:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.6">
+              <point x="45.0" y="-15.5" />
+              <point x="677.875" y="506.0" />
+              <point x="1288.875" y="506.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-aop:jar:4.3.14.RELEASE" target="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-core:jar:4.3.14.RELEASE">
+              <point x="24.75" y="-15.5" />
+              <point x="381.0388157894737" y="142.0" />
+              <point x="225.33026315789482" y="142.0" />
+              <point x="40.799999999999955" y="15.5" />
+            </edge>
+            <edge source="org.slf4j:slf4j-log4j12:jar:1.7.25" target="org.slf4j:slf4j-log4j12:jar:1.7.25/log4j:log4j:jar:1.2.17">
+              <point x="26.25" y="-15.5" />
+              <point x="874.125" y="395.0" />
+              <point x="891.0302631578949" y="395.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.14.RELEASE" target="org.springframework:spring-web:jar:4.3.14.RELEASE/org.springframework:spring-core:jar:4.3.14.RELEASE">
+              <point x="-37.5" y="-15.5" />
+              <point x="162.875" y="395.0" />
+              <point x="0.0" y="395.0" />
+              <point x="0.0" y="132.0" />
+              <point x="143.7302631578949" y="132.0" />
+              <point x="-40.799999999999955" y="15.5" />
+            </edge>
+            <edge source="myLightServer:LightServer:1.0-SNAPSHOT" target="org.apache.httpcomponents:httpclient:jar:4.5.5">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.4" x="590.0" y="364.75" />
+          <SelectedNodes>
+            <node>myLightServer:LightServer:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.demo/servlet/TestCloseOrOpenServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myLightServer.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/util/JSONUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/javax/servlet/ServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/com/sun/glass/ui/Accessible.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="137" column="18" lean-forward="false" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-421">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/model/LightBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/servlet/AllControlServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="50" column="73" lean-forward="false" selection-start-line="50" selection-start-column="64" selection-end-line="50" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="56" column="41" lean-forward="false" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/servlet/AllPhoneInfoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/servlet/SingleLightBeanServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/model/LightBeanStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="70" column="49" lean-forward="true" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
-          <folding />
+        <state relative-caret-position="92">
+          <caret line="87" column="67" lean-forward="false" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="67" />
+          <folding>
+            <element signature="e#344#355#0" expanded="true" />
+            <element signature="e#4357#4358#0" expanded="true" />
+            <element signature="e#4390#4391#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -645,7 +1226,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>myLightServer</last-edited>
+          <last-edited>Web|myLightServer</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -657,6 +1238,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: org.springframework:spring-beans:4.3.14.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -667,5 +1249,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

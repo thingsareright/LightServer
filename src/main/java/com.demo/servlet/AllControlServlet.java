@@ -12,7 +12,7 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class CloseOrOpenServlet extends HttpServlet {
+public class AllControlServlet extends HttpServlet {
 
     private static final String ENCODING = "UTF8";
     /**
@@ -31,10 +31,11 @@ public class CloseOrOpenServlet extends HttpServlet {
         //如果没有这个lightBean，那么会添加
         if (null == LightBeanStore.findLightBean(lightPhoneId)){
             //只有不含这个灯时才需要添加
-            LightBean lightBean1 = new LightBean(lightPhoneId,false,3);
+            LightBean lightBean1 = new LightBean(lightPhoneId,false,3, System.currentTimeMillis());
             LightBeanStore.saveLightBean(lightBean1);
         }
         LightBean lightBean = LightBeanStore.findLightBean(lightPhoneId);
+        lightBean.setLastActiveTime(System.currentTimeMillis());    //别忘了刷新时间
         PrintWriter out = null;
         try {
             out = response.getWriter();
@@ -46,7 +47,9 @@ public class CloseOrOpenServlet extends HttpServlet {
     }
 
     /**
-     * 灯的亮灭WEB交互用GET
+     * 控制全部灯的亮灭和屏幕亮度WEB交互用GET
+     * http://localhost:8080/CloseOrOpenServlet?flag=true|false&luminance=[1,5]
+     * 这个就是控制全部灯的亮灭了
      * @param request
      * @param response
      * @throws ServletException
@@ -54,11 +57,13 @@ public class CloseOrOpenServlet extends HttpServlet {
      */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String flagString  = request.getParameter("flag");
+        int luminance = Integer.parseInt(request.getParameter("luminance"));
         Boolean flag = Boolean.valueOf(flagString);
-        Boolean result = LightBeanStore.changeAllLightOnOrOff(flag);
+        Boolean result = LightBeanStore.changeAllLightOnOrOffAndLuminance(flag, luminance);
         BufferedWriter writer = new BufferedWriter(response.getWriter());
         writer.write(result?"1":"0");
         writer.flush();
         writer.close();
     }
+
 }
