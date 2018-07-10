@@ -6,8 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ba6d4a8-f080-4399-b2a9-53ec0f4b2050" name="Default" comment="">
+    <list default="true" id="3ba6d4a8-f080-4399-b2a9-53ec0f4b2050" name="Default" comment="增加了定时清理掉线设备的功能。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.demo/model/LightBean.java" afterPath="$PROJECT_DIR$/src/main/java/com.demo/model/LightBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.demo/model/LightBeanStore.java" afterPath="$PROJECT_DIR$/src/main/java/com.demo/model/LightBeanStore.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.demo/util/RemoveOverdueUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com.demo/util/RemoveOverdueUtil.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,17 +25,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RemoveOverdueUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RemoveOverdueUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/util/RemoveOverdueUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+            <state relative-caret-position="69">
+              <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,15 +50,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LightBeanStore.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LightBeanStore.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/model/LightBeanStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="48" column="28" lean-forward="false" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+            <state relative-caret-position="893">
+              <caret line="190" column="29" lean-forward="false" selection-start-line="190" selection-start-column="29" selection-end-line="190" selection-end-column="29" />
               <folding>
-                <element signature="e#4357#4358#0" expanded="true" />
-                <element signature="e#4390#4391#0" expanded="true" />
+                <element signature="e#6101#6102#0" expanded="true" />
+                <element signature="e#6134#6135#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LightBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/model/LightBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,14 +97,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com.demo/servlet/TestCloseOrOpenServlet.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com.demo/util/JSONUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.demo/model/LightBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/servlet/SingleLightBeanServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/servlet/AllPhoneInfoServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.demo/model/LightBeanStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/servlet/ChangeSingleLightBeanServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.demo/util/CleanAndRemove.java" />
         <option value="$PROJECT_DIR$/src/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com.demo/util/RemoveOverdueUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.demo/model/LightBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.demo/model/LightBeanStore.java" />
       </list>
     </option>
   </component>
@@ -527,7 +539,7 @@
       <option name="presentableId" value="Default" />
       <updated>1531149550307</updated>
       <workItem from="1531149552517" duration="3119000" />
-      <workItem from="1531183613846" duration="14180000" />
+      <workItem from="1531183613846" duration="15079000" />
     </task>
     <task id="LOCAL-00001" summary="后台基本开发完毕，准备前端网页的开发和安卓的开发，这个需分工！">
       <created>1531152847631</created>
@@ -557,11 +569,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531204339511</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="增加了定时清理掉线设备的功能。">
+      <created>1531204397488</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1531204397488</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17299000" />
+    <option name="totallyTimeSpent" value="18198000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -592,8 +611,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46261683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46261683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842106" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25972006" sideWeight="0.83653843" order="0" side_tool="false" content_ui="combo" />
@@ -698,8 +717,8 @@
         <state relative-caret-position="1725">
           <caret line="75" column="0" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="75" selection-end-column="0" />
           <folding>
-            <element signature="e#4357#4358#0" expanded="true" />
-            <element signature="e#4390#4391#0" expanded="true" />
+            <element signature="e#6101#6102#0" expanded="true" />
+            <element signature="e#6134#6135#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1026,19 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/model/LightBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding>
-            <element signature="e#1137#1138#0" expanded="false" />
-            <element signature="e#1174#1175#0" expanded="false" />
-            <element signature="e#1232#1233#0" expanded="false" />
-            <element signature="e#1284#1285#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/util/CleanAndRemove.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1079,17 +1085,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/model/LightBeanStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="48" column="28" lean-forward="false" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-          <folding>
-            <element signature="e#4357#4358#0" expanded="true" />
-            <element signature="e#4390#4391#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1100,14 +1095,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/util/RemoveOverdueUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state relative-caret-position="69">
+          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/model/LightBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.demo/model/LightBeanStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="190" column="29" lean-forward="false" selection-start-line="190" selection-start-column="29" selection-end-line="190" selection-end-column="29" />
+          <folding>
+            <element signature="e#6101#6102#0" expanded="true" />
+            <element signature="e#6134#6135#0" expanded="true" />
           </folding>
         </state>
       </provider>

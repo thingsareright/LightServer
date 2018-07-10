@@ -9,6 +9,10 @@ public class LightBeanStore {
 
     //记录lightBeans里的数据被修改的次数，到达一定度后持久化
     private static int changeTimes = 0;
+    //默认的灯的状态
+    private static final boolean DEFAULT_FLAG = false;
+    //默认的屏幕亮度
+    private static final int DEFAULT_LUMINANCE = 3;
     //这是非持久化存储的载体，而且是线程安全的
     private static CopyOnWriteArrayList<LightBean> lightBeans = new CopyOnWriteArrayList<LightBean>();
 
@@ -82,6 +86,11 @@ public class LightBeanStore {
         }
     }
 
+    /**
+     * 这个方法主要是为了查找一个设备
+     * @param lightPhoneId 设备的唯一ID
+     * @return 如果成功查找到设备则返回设备对象，否则返回NULL
+     */
     public static LightBean findLightBean(String lightPhoneId){
         try {
             for (LightBean lightBean: lightBeans) {
@@ -95,6 +104,12 @@ public class LightBeanStore {
         }
     }
 
+    /**
+     * 这个方法用于控制所有灯的开关和屏幕的亮度
+     * @param flag
+     * @param luminance
+     * @return
+     */
     public static Boolean changeAllLightOnOrOffAndLuminance(Boolean flag, int luminance) {
         try {
             for (LightBean lightBean : lightBeans) {
@@ -108,6 +123,11 @@ public class LightBeanStore {
         }
     }
 
+    /**
+     * 这是上面方法的重载方法，用于更改所有设备的灯的开关
+     * @param flag
+     * @return
+     */
     public static Boolean changeAllLightOnOrOffAndLuminance(Boolean flag) {
         try {
             for (LightBean lightBean : lightBeans) {
@@ -120,11 +140,17 @@ public class LightBeanStore {
         }
     }
 
-    public static Boolean changeLightLuminance(String lightPhoneId, int luminance){
+    /**
+     * 用于更改屏幕的亮度
+     * @param lightPhoneId
+     * @param luminance
+     * @return
+     */
+    public static Boolean changeSingleLight(String lightPhoneId, int luminance){
         try {
             if (null == LightBeanStore.findLightBean(lightPhoneId)){
                 //只有不含这个灯时才需要添加
-                LightBean lightBean1 = new LightBean(lightPhoneId,false,luminance,System.currentTimeMillis());
+                LightBean lightBean1 = new LightBean(lightPhoneId,DEFAULT_FLAG,luminance,System.currentTimeMillis());
                 LightBeanStore.saveLightBean(lightBean1);
             } else {
                 LightBean lightBean = LightBeanStore.findLightBean(lightPhoneId);
@@ -136,6 +162,43 @@ public class LightBeanStore {
             return false;
         }
     }
+
+    /**
+     * 这是上面那个方法的重载方法，用于更改屏幕的亮度
+     * @param lightPhoneId
+     * @param flag
+     * @return
+     */
+    public static Boolean changeSingleLight(String lightPhoneId, boolean flag){
+        try {
+            if (null == LightBeanStore.findLightBean(lightPhoneId)){
+                //只有不含这个灯时才需要添加
+                LightBean lightBean1 = new LightBean(lightPhoneId,flag,DEFAULT_LUMINANCE,System.currentTimeMillis());
+                LightBeanStore.saveLightBean(lightBean1);
+            } else {
+                LightBean lightBean = LightBeanStore.findLightBean(lightPhoneId);
+                lightBean.setState(flag);
+            }
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    public static Boolean changeSingleLight(String lightPhoneId, boolean flag,int luminance){
+        try {
+            //此时不需要再判断已有该设备上线
+            LightBean lightBean1 = new LightBean(lightPhoneId,flag, luminance, System.currentTimeMillis());
+            LightBeanStore.saveLightBean(lightBean1);
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+
 
     public static CopyOnWriteArrayList<LightBean> getLightBeans() {
         return lightBeans;

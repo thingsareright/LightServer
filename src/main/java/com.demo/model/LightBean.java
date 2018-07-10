@@ -54,5 +54,4 @@ public class LightBean implements Serializable{
         this.lastActiveTime = lastActiveTime;
     }
 
-
 }

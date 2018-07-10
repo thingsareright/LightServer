@@ -2,7 +2,6 @@ package com.demo.util;
 
 import com.demo.model.LightBean;
 import com.demo.model.LightBeanStore;
-
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import java.util.Date;
