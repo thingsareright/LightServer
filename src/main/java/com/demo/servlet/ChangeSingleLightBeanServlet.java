@@ -36,21 +36,17 @@ public class ChangeSingleLightBeanServlet extends HttpServlet {
         } catch (Exception e) {
             lightBean = new LightBean(lightPhoneId, LightBeanStore.DEFAULT_FLAG, LightBeanStore.DEFAULT_LUMINANCE,System.currentTimeMillis());
         }
-        boolean state = false;
         try {
-            state = Boolean.parseBoolean((request.getParameter("state")));
+            boolean state = Boolean.parseBoolean((request.getParameter("state")));
             lightBean.setState(state);
         } catch (NumberFormatException e) {
         }
-        int luminance = LightBeanStore.DEFAULT_LUMINANCE;
         try {
-             luminance = Integer.parseInt(request.getParameter("luminance"));
+             int luminance = Integer.parseInt(request.getParameter("luminance"));
              lightBean.setLuminance(luminance);
         } catch (NumberFormatException e) {
         }
 
-        lightBean.setState(state);
-        lightBean.setLuminance(luminance);
         result = LightBeanStore.saveLightBean(lightBean);
         BufferedWriter writer = new BufferedWriter(response.getWriter());
         writer.write(result?"1":"0");
