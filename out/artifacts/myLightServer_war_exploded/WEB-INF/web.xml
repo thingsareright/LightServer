@@ -56,4 +56,13 @@
         <servlet-name>AllPhoneInfoServlet</servlet-name>
         <url-pattern>/AllPhoneInfoServlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ChangeSingleLightBeanServlet</servlet-name>
+        <servlet-class>com.demo.servlet.ChangeSingleLightBeanServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangeSingleLightBeanServlet</servlet-name>
+        <url-pattern>/ChangeSingleLightBeanServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
