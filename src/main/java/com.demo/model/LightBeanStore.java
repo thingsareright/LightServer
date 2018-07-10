@@ -22,7 +22,7 @@ public class LightBeanStore {
     public static boolean saveLightBean(LightBean lightBean) {
         try {
             for (LightBean alreadyLightBean: lightBeans) {
-                if (alreadyLightBean.getLightPhoneId() == lightBean.getLightPhoneId()){
+                if (alreadyLightBean.getLightPhoneId().equals(lightBean.getLightPhoneId())){
                     lightBeans.remove(alreadyLightBean);
                     lightBeans.add(lightBean);
                     changeTimes ++;
@@ -73,7 +73,7 @@ public class LightBeanStore {
         try {
             for (LightBean lightBean:
                  lightBeans) {
-                if (lightPhoneId == lightBean.getLightPhoneId()){
+                if (lightPhoneId.equals(lightBean.getLightPhoneId())){
                     lightBeans.remove(lightBean);
                     changeTimes ++;
                     doMySQLThings(lightBeans);   //进行数据库持久化，注意还没写 TODO
@@ -199,8 +199,6 @@ public class LightBeanStore {
             return false;
         }
     }
-
-
 
     public static CopyOnWriteArrayList<LightBean> getLightBeans() {
         return lightBeans;
