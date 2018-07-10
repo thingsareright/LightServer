@@ -10,9 +10,11 @@ public class LightBeanStore {
     //记录lightBeans里的数据被修改的次数，到达一定度后持久化
     private static int changeTimes = 0;
     //默认的灯的状态
-    private static final boolean DEFAULT_FLAG = false;
+    public static final boolean DEFAULT_FLAG = false;
     //默认的屏幕亮度
-    private static final int DEFAULT_LUMINANCE = 3;
+    public static final int DEFAULT_LUMINANCE = 3;
+    //当没有lightPhoneId传来时的默认值
+    public static final String LIGHTPHONEID_WRONG = "000000";
     //这是非持久化存储的载体，而且是线程安全的
     private static CopyOnWriteArrayList<LightBean> lightBeans = new CopyOnWriteArrayList<LightBean>();
 

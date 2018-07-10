@@ -15,23 +15,43 @@ import java.io.IOException;
  * http://localhost:8080/ChangeSingleLightBeanServlet?lightPhoneId=1&luminance=2&state=false
  */
 public class ChangeSingleLightBeanServlet extends HttpServlet {
+
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         boolean result = false;
-        try {
-            int luminance = Integer.parseInt(request.getParameter("luminance"));
-            String lightPhoneId = request.getParameter("lightPhoneId");
-            boolean state = Boolean.parseBoolean(request.getParameter("state"));
 
-            LightBean lightBean = new LightBean(lightPhoneId, state, luminance, System.currentTimeMillis());
-            result = LightBeanStore.saveLightBean(lightBean);
+        String lightPhoneId = request.getParameter("lightPhoneId");
+        LightBean lightBean = null;
+        try {
+            lightBean = LightBeanStore.findLightBean(lightPhoneId.toString());
+        } catch (Exception e) {
+            lightPhoneId = LightBeanStore.LIGHTPHONEID_WRONG;
+        }
+        try {
+            lightBean.toString();   //检测其是否为空
+        } catch (Exception e) {
+            lightBean = new LightBean(lightPhoneId, LightBeanStore.DEFAULT_FLAG, LightBeanStore.DEFAULT_LUMINANCE,System.currentTimeMillis());
+        }
+        boolean state = false;
+        try {
+            state = Boolean.parseBoolean((request.getParameter("state")));
+            lightBean.setState(state);
         } catch (NumberFormatException e) {
-            e.printStackTrace();
+        }
+        int luminance = LightBeanStore.DEFAULT_LUMINANCE;
+        try {
+             luminance = Integer.parseInt(request.getParameter("luminance"));
+             lightBean.setLuminance(luminance);
+        } catch (NumberFormatException e) {
         }
 
+        lightBean.setState(state);
+        lightBean.setLuminance(luminance);
+        result = LightBeanStore.saveLightBean(lightBean);
         BufferedWriter writer = new BufferedWriter(response.getWriter());
         writer.write(result?"1":"0");
         writer.flush();

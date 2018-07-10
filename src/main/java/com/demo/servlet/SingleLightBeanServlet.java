@@ -23,25 +23,30 @@ public class SingleLightBeanServlet extends HttpServlet {
     }
 
     /**
-     * 单个安卓的请求
+     * 某个设备发送普通心跳连接
      * @param request
      * @param response
      * @throws ServletException
      * @throws IOException
      */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String lightPhoneId = (String) request.getParameter("lightPhoneId");
-        // 设置编码格式
-        response.setContentType("text/plain;charset=" + ENCODING);
-        response.setCharacterEncoding(ENCODING);
-        //如果没有这个lightBean，那么会添加
-        if (null == LightBeanStore.findLightBean(lightPhoneId)){
-            //只有不含这个灯时才需要添加
-            LightBean lightBean1 = new LightBean(lightPhoneId,false,3, System.currentTimeMillis());
-            LightBeanStore.saveLightBean(lightBean1);
+        LightBean lightBean = null;
+        try {
+            String lightPhoneId = (String) request.getParameter("lightPhoneId");
+            // 设置编码格式
+            response.setContentType("text/plain;charset=" + ENCODING);
+            response.setCharacterEncoding(ENCODING);
+            //如果没有这个lightBean，那么会添加
+            if (null == LightBeanStore.findLightBean(lightPhoneId)){
+                //只有不含这个灯时才需要添加
+                LightBean lightBean1 = new LightBean(lightPhoneId,false,3, System.currentTimeMillis());
+                LightBeanStore.saveLightBean(lightBean1);
+            }
+            lightBean = LightBeanStore.findLightBean(lightPhoneId);
+            lightBean.setLastActiveTime(System.currentTimeMillis());    //别忘了刷新时间
+        } catch (Exception e) {
+            lightBean = new LightBean(LightBeanStore.LIGHTPHONEID_WRONG, LightBeanStore.DEFAULT_FLAG, LightBeanStore.DEFAULT_LUMINANCE, System.currentTimeMillis());
         }
-        LightBean lightBean = LightBeanStore.findLightBean(lightPhoneId);
-        lightBean.setLastActiveTime(System.currentTimeMillis());    //别忘了刷新时间
         PrintWriter out = null;
         try {
             out = response.getWriter();
