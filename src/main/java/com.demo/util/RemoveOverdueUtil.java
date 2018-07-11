@@ -31,7 +31,7 @@ class RemoveOverdueTimerTask extends TimerTask{
 
     public void run() {
         for (LightBean lightBean: LightBeanStore.getLightBeans()) {
-            if (2000 < (System.currentTimeMillis() - lightBean.getLastActiveTime())){
+            if (10000 < (System.currentTimeMillis() - lightBean.getLastActiveTime())){
                 LightBeanStore.removeLightBean(lightBean);
             }
         }

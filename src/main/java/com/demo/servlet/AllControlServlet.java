@@ -56,8 +56,16 @@ public class AllControlServlet extends HttpServlet {
      * @throws IOException
      */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String flagString  = request.getParameter("flag");
-        int luminance = Integer.parseInt(request.getParameter("luminance"));
+        String flagString  = null;
+        int luminance = 0;
+        try {
+            flagString = request.getParameter("flag").toString();
+            luminance = Integer.parseInt(request.getParameter("luminance"));
+        } catch (NumberFormatException e) {
+            luminance = LightBeanStore.DEFAULT_LUMINANCE;
+        } catch (NullPointerException e1){
+            flagString = LightBeanStore.LIGHTPHONEID_WRONG;
+        }
         Boolean flag = Boolean.valueOf(flagString);
         Boolean result = LightBeanStore.changeAllLightOnOrOffAndLuminance(flag, luminance);
         BufferedWriter writer = new BufferedWriter(response.getWriter());

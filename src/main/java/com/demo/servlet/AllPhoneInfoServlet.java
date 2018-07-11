@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Collections;
 
 /**
  * 获取所有灯的状态
@@ -28,6 +29,7 @@ public class AllPhoneInfoServlet extends HttpServlet {
         PrintWriter out = null;
         try {
             out = response.getWriter();
+            Collections.sort(LightBeanStore.getLightBeans());
             out.write(JSONObject.toJSONString(LightBeanStore.getLightBeans()));
             out.flush();
         } catch (IOException e) {

@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * 这个类用来表明灯的状态
  */
-public class LightBean implements Serializable{
+public class LightBean implements Serializable, Comparable{
 
     private String lightPhoneId;    //手电筒所在设备的唯一ID
     private boolean state;          //灯的状态，true为开启，false为关闭
@@ -54,4 +54,8 @@ public class LightBean implements Serializable{
         this.lastActiveTime = lastActiveTime;
     }
 
+
+    public int compareTo(Object o) {
+        return lightPhoneId.compareTo(((LightBean)o).lightPhoneId);
+    }
 }

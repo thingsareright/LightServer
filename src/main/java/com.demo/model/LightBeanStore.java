@@ -101,7 +101,6 @@ public class LightBeanStore {
             }
             return null;
         } catch (Exception e) {
-            e.printStackTrace();
             return null;
         }
     }
@@ -120,7 +119,6 @@ public class LightBeanStore {
             }
             return true;
         } catch (Exception e) {
-            e.printStackTrace();
             return false;
         }
     }
@@ -137,7 +135,6 @@ public class LightBeanStore {
             }
             return true;
         } catch (Exception e) {
-            e.printStackTrace();
             return false;
         }
     }
@@ -154,13 +151,13 @@ public class LightBeanStore {
                 //只有不含这个灯时才需要添加
                 LightBean lightBean1 = new LightBean(lightPhoneId,DEFAULT_FLAG,luminance,System.currentTimeMillis());
                 LightBeanStore.saveLightBean(lightBean1);
+                changeTimes ++;
             } else {
                 LightBean lightBean = LightBeanStore.findLightBean(lightPhoneId);
                 lightBean.setLuminance(luminance);
             }
             return true;
         } catch (Exception e) {
-            e.printStackTrace();
             return false;
         }
     }
@@ -177,13 +174,13 @@ public class LightBeanStore {
                 //只有不含这个灯时才需要添加
                 LightBean lightBean1 = new LightBean(lightPhoneId,flag,DEFAULT_LUMINANCE,System.currentTimeMillis());
                 LightBeanStore.saveLightBean(lightBean1);
+                changeTimes ++;
             } else {
                 LightBean lightBean = LightBeanStore.findLightBean(lightPhoneId);
                 lightBean.setState(flag);
             }
             return true;
         } catch (Exception e) {
-            e.printStackTrace();
             return false;
         }
     }
@@ -195,7 +192,6 @@ public class LightBeanStore {
             LightBeanStore.saveLightBean(lightBean1);
             return true;
         } catch (Exception e) {
-            e.printStackTrace();
             return false;
         }
     }
